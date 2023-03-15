@@ -23,7 +23,7 @@ Consider the [Stack](www.google.com) data structure.
 <details>
   <summary>Hint #4</summary>
   
-  Optimize - Consider the [Hashtable](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html) and [HashMap](https://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html) structures.
+  Consider the [Hashtable](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html) and [HashMap](https://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html) structures.
  
   
   
