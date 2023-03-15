@@ -14,5 +14,5 @@ Every close bracket has a corresponding open bracket of the same type.
 
 <details>
   <summary>Hint #2</summary>
-  Consider the [Stack](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html) data structure. 
+  Consider the [Stack]() data structure. 
 </details>
