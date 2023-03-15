@@ -17,13 +17,7 @@ You can solve this by looping through the string only once.
 <details>
   <summary>Hint #2</summary>
   
-  Consider the [Stack](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html) and [HashMap](https://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html) structures.
+  Consider the [Stack](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html) data structure.
   
 </details>
   
-<details>
-  <summary>Hint #4</summary>
-  
-  Consider the [Hashtable](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html) and [HashMap](https://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html) structures.
-  
-</details>
