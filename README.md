@@ -15,9 +15,9 @@ You can solve this by looping through the string only once.
 </details>
   
 <details>
-
+  
   <summary>Hint #2</summary>
-Consider the [Stack](www.google.com) data structure. 
+  Consider the [Stack](www.google.com) data structure. 
 </details>
   
 <details>
