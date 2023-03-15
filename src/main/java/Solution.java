@@ -1,15 +1,50 @@
+import java.util.Stack;
+
 class Solution {
     /*
-    Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+    There aren't many sub-optimal solutions for this problem. You could optimize it a bit, but any solution using
+    the principle of a "stack" will work well enough, even if a stack data structure is not utilized.
 
-    An input string is valid if:
-        Open brackets must be closed by the same type of brackets.
-        Open brackets must be closed in the correct order.
-        Every close bracket has a corresponding open bracket of the same type.
+    Each time one of the opening parentheses is encountered, add it to the stack. Each time a closing one is
+    encountered, make sure it matches the most recent opening and then remove it. If we ever end up with a mismatch,
+    that means the parentheses are not valid.
      */
     public boolean isValid(String s) {
-        //write your code here...
+        Stack<Character> stack = new Stack<>();
+        for(int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
 
-        return false;
+            switch(c) {
+                case '(':
+                case '[':
+                case '{':
+                    stack.push(c);
+                    break;
+                case ')':
+                    if(stack.isEmpty() || stack.peek() != '(') {
+                        return false;
+                    } else {
+                        stack.pop();
+                    }
+                    break;
+                case ']':
+                    if(stack.isEmpty() || stack.peek() != '[') {
+                        return false;
+                    } else {
+                        stack.pop();
+                    }
+                    break;
+                case '}':
+                    if(stack.isEmpty() || stack.peek() != '{') {
+                        return false;
+                    } else {
+                        stack.pop();
+                    }
+                    break;
+            }
+        }
+
+        return stack.isEmpty();
+
     }
 }
