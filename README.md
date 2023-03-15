@@ -13,18 +13,14 @@ Every close bracket has a corresponding open bracket of the same type.
   <summary>Hint #1</summary>
 You can solve this by looping through the string only once.
 </details>
-[test](www.google.com)
+  
 <details>
 
   <summary>Hint #2</summary>
 Consider the [Stack](www.google.com) data structure. 
 </details>
-
+  
 <details>
   <summary>Hint #4</summary>
-  
   Consider the [Hashtable](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html) and [HashMap](https://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html) structures.
- 
-  
-  
 </details>
