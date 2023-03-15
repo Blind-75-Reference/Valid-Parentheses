@@ -15,9 +15,10 @@ You can solve this by looping through the string only once.
 </details>
   
 <details>
-  
   <summary>Hint #2</summary>
-  Consider the [Stack](www.google.com) data structure. 
+  
+  Consider the [Stack](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html) and [HashMap](https://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html) structures.
+  
 </details>
   
 <details>
