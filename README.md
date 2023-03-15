@@ -9,10 +9,10 @@ Every close bracket has a corresponding open bracket of the same type.
   
 <details>
   <summary>Hint #1</summary>
-  You can solve this by looping through the string only once.
+You can solve this by looping through the string only once.
 </details>
 
 <details>
   <summary>Hint #2</summary>
-  Consider the [Stack]() data structure. 
+Consider the [Stack]() data structure. 
 </details>
